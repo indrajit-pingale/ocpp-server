@@ -1,0 +1,26 @@
+{
+  "name": "ocpp-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview --port 5173",
+    "clean-light": "rm -rf dist",
+    "clean": "npm run clean-light && rm -rf node_modules"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "axios": "^1.0.0",
+    "@mui/material": "^5.0.0",
+    "@emotion/react": "^11.0.0",
+    "@emotion/styled": "^11.0.0"
+  },
+  "proxy": "http://localhost:3000",
+  "devDependencies": {
+    "typescript": "^4.9.0",
+    "vite": "^4.0.0",
+    "@vitejs/plugin-react": "^3.0.0"
+  }
+}
